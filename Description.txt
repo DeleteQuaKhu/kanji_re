@@ -1,0 +1,52 @@
+Description
+Detect Abaqus input file error by running Abaqus syntaxcheck
+Make gnuplot script for Bore deformation evaluation
+Calculate element area and export to csv file
+Calculate element area and export to csv file
+Make Abaqus input file and Hyperview database from Excite mapping data (pressure on element)
+Export Contour Value for displayed parts (and coordinate to a text file)
+High Cycle Fatigue analysis for Head and Block using FEMFAT. This program automatically converts to universal format and run FEMFAT solver.
+Find shared element errors
+Sub-modelling High Cycle Fatigue analysis for Head and Block using ADVC and FEMFAT. This cripts automatically makes input files and submits to respective solvers.
+Submit Actran files to solver sever by file list defined in Excel file
+Submit Actran files to solver sever by file list defined in Excel file
+Export graph (jpg file) from result of Actran (*.plt file)
+Calculating the area in % that satisfiles the criteria (eg. contact opening, slip length)
+Generating outer sufaces mesh from solid mesh (for post-processing)
+Extracting surfaces from groups and calculating heat flow thru those surfaces
+Creating 1-element-away-from-weld node sets
+Generating a contact report
+Replacing a new picture to the same position and size with the old one
+Renaming parts after ELSET names exported from Jupiter
+Combining multiple movie images for making comparison between different models
+Export mode animation to gif file from Modal analysis result
+Import picture of 2 views of Engine (we need 2 views to review all parts in engine) or 2 models to PowerPoint for comparision
+Export waterfall data and picture
+Calculate the strain variation between 2 results
+High Cycle Fatigue analysis for Bulkhead Engine using FEMFAT. 120 cases FEMFAT calculation is often required in bulkhead analysis; 1 case calculation takes 30-45 minutes to complete. User need to prepare the FEMFAT template files. This tool will automatically run FEMFAT (can run overnight)
+Automatically perform post process of coldflow/injection/combustion analysis after finishing calculation
+Create movie of mesh' motion along with the movement of piston and intake/exhaust valves
+Evaluate Bore distortion, Max.Bore distortion (2nd-8th order), Bore Roundness and Bore axis deformation
+Abaqus plugin helps evaluate Gasket sealing and durability
+Read *.pch file, plot all frequencies into a graph. Then use Hyperview to confirm the location. Finally, input 1st natural frequency at specific parts (PowerPlan, Ekimani, Alternator, Compressor, Engine mount) into 1 ruler scale
+Find and delete empty groups *SURFACE (to avoid Abaqus error msg)
+Replace a picture with same hight and line format. Set layer position of picture = 1 (bottom)
+Get image files from Linux and create a PowerPoint and insert the images into it automatically. The insert the ppt into another ppt file for reference.
+User import result file (*.op2) of eigen value analysis (SOL103) into Hyperview, run tcl code to print frequency list
+Query the maximum contact slip/contact displacement at contact surface CAP/BLOCK
+Capture image of bearing pressure contour from excite mapping result (all load cases)
+Pre-processing (geometry transformation, meshing, setting Boundary Conditions, solvers, etc.) and Post-Processing for Steady Flow Analysis of all engines
+Export chart picture from excel to output folder, then PowerPoint file will be opened and import picture automatically
+Export mode animation to gif file and import to PowerPoint
+Post processing TMF analysis results
+Copy Mapping Data for the region that has not data from CFD side
+Auto cut face pretension for bolts having bolt thread and bolt seat assembly face
+Auto create pretension for solid bolt having a face pretension
+Auto take and insert picture into pptx for Sealing task. User create views and user frame manually.
+Auto check Excite result > create input file > submit Recovery analysis > submit Greeen analysis > check result > data consolidation > create report
+Read *.pch file (Displacement/Vellocity/Acceleration + ERP) > Export.csv
+Read *.plt file > Export.csv
+Create macro to export intensity result
+Create macro to export properties of a part: name, Young modulus, possion ratio, mass, volume, density
+Pick nodes: 8 nodes on each Valve seat, 4 nodes on each Valve Guide
+Find surfaces having 4 sides which is used for ISO mesh
